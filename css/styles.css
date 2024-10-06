@@ -138,12 +138,17 @@ img{
     gap: 40px;
 }
 
-.contact-item-a{
+.contact-item{
     transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.contact-item-b{
-    transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+.contact-item-mail{
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.contact-item-tel{
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .contact-item-mail, .contact-item-tel{
     font-family: "Roboto", sans-serif;
     font-weight: 400;
@@ -153,12 +158,7 @@ img{
     color: #434455;
 }
 
-.contact-item-mail{
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.contact-item-tel{
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+
 
 .contact-item-mail:hover,
 .contact-item-tel:hover,
