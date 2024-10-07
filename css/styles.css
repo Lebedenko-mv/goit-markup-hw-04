@@ -247,7 +247,7 @@ img{
 }
 
 .benefits-section{
-    padding: 120px 0;    
+    padding: 120px 0;
 }
 .benefits-section-ul {
     margin: 0;
@@ -256,6 +256,7 @@ img{
     gap: 24px;
 }
 .benefits-icon-container{
+    margin-bottom: 8px;
     border: 1px solid #8e8f99;
     border-radius: 4px;
     width: 264px;
@@ -266,7 +267,6 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 5px;
 }
 .benefits-section-strategy-li{
     width: calc((100% - 72px) / 4);
