@@ -504,6 +504,10 @@ img{
 .footer-section .container{
     display: flex;
     align-items: baseline;
+    
+}
+
+.footer-content{
     margin-right: 120px;
 }
 
